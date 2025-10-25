@@ -1,0 +1,18 @@
+# Läs fil som text
+$jsonText = Get-Content -Path "ad_export.json" -Raw -Encoding UTF8
+# -Raw läser hela filen som en sträng (viktigt för JSON!)
+
+# Konvertera JSON-text till PowerShell-objekt
+$data = $jsonText | ConvertFrom-Json
+
+# Eller allt på en rad med pipeline
+$data = Get-Content -Path "ad_export.json" -Raw -Encoding UTF8 | ConvertFrom-Json
+
+# Nu kan du komma åt data som objekt
+# notera: detta skrivs till terminalen också (utan Write-Host)
+$data.domain                    # "techcorp.local"
+$data.users                     # Array med alla användare
+$data.users[0].displayName      # "Anna Andersson"
+$data.users.Count               # Antal användare
+
+Write-Host $data.users[1].displayName

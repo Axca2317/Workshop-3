@@ -1,0 +1,6 @@
+# Använd $() för att evaluera uttryck i strängar
+$message = "Det finns $($data.users.Count) användare"
+$status = "Användare $($user.displayName) - Status: $($user.enabled)"
+
+# Backtick ` för escape-tecken
+$text = "Ny rad: `n Tab: `t Quote: `""

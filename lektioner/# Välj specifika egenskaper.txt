@@ -1,0 +1,15 @@
+# Välj specifika egenskaper
+$data.users | Select-Object displayName, department
+
+# Välj första/sista N objekt
+$data.users | Select-Object -First 5
+$data.users | Select-Object -Last 5
+
+# Skapa beräknade egenskaper
+$data.users | Select-Object displayName, 
+    @{Name="DaysInactive"; Expression={
+        ((Get-Date) - [datetime]$_.lastLogon).Days
+    }}
+
+# Expandera egenskaper
+$data.users | Select-Object -ExpandProperty department -Unique

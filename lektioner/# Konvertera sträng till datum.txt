@@ -1,0 +1,12 @@
+# Konvertera sträng till datum
+$lastLogonDate = [datetime]$user.lastLogon
+
+# Beräkna dagar sedan
+$daysSince = (Get-Date) - $lastLogonDate
+$daysInactive = $daysSince.Days
+
+# Jämföra datum
+$thirtyDaysAgo = (Get-Date).AddDays(-30)
+if ($lastLogonDate -lt $thirtyDaysAgo) {
+    # Användaren är inaktiv
+}

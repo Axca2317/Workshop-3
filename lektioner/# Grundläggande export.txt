@@ -1,0 +1,14 @@
+# Grundläggande export
+$data.users | Export-Csv -Path "users.csv" -NoTypeInformation
+# -NoTypeInformation tar bort .NET type-info från första raden
+
+# Export med specifika kolumner
+$data.users | 
+    Select-Object samAccountName, displayName, department |
+    Export-Csv -Path "users_simple.csv" -NoTypeInformation
+
+# Export med svenska tecken (UTF-8)
+$data.users | Export-Csv -Path "users.csv" -NoTypeInformation -Encoding UTF8
+
+# Export med semikolon som separator (svensk Excel)
+$data.users | Export-Csv -Path "users.csv" -NoTypeInformation -Delimiter ";" -Encoding UTF8

@@ -1,0 +1,17 @@
+# Grundläggande syntax
+$filtered = $collection | Where-Object { villkor }
+
+# Exempel: Användare som inte loggat in på 30 dagar
+$thirtyDaysAgo = (Get-Date).AddDays(-30)
+$inactiveUsers = $data.users | Where-Object { 
+    [datetime]$_.lastLogon -lt $thirtyDaysAgo 
+}
+
+# Flera villkor med -and / -or
+$problemUsers = $data.users | Where-Object {
+    $_.enabled -eq $true -and 
+    [datetime]$_.lastLogon -lt $thirtyDaysAgo
+}
+
+# Kortare syntax med ? (alias för Where-Object)
+$data.users | ? { $_.department -eq "IT" }

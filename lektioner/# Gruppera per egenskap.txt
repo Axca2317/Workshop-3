@@ -1,0 +1,16 @@
+# Gruppera per egenskap
+$usersByDept = $data.users | Group-Object department
+
+# Resultat är objekt med Count och Group
+foreach ($dept in $usersByDept) {
+    Write-Host "$($dept.Name): $($dept.Count) användare"
+    # $dept.Group innehåller alla användare i den avdelningen
+}
+
+# Gruppera och räkna
+$data.computers | Group-Object operatingSystem | 
+    Select-Object Name, Count |
+    Sort-Object Count -Descending
+
+# Gruppera på flera egenskaper
+$data.users | Group-Object site, department

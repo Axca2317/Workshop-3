@@ -1,0 +1,20 @@
+# Here-string för flerradiga strängar
+$report = @"
+================================================================================
+                    ACTIVE DIRECTORY AUDIT REPORT
+================================================================================
+Generated: $(Get-Date)
+Domain: $($data.domain)
+Total Users: $($data.users.Count)
+
+INACTIVE USERS
+--------------
+"@
+
+# Lägg till dynamiskt innehåll
+foreach ($user in $inactiveUsers) {
+    $report += "`n$($user.samAccountName)`t$($user.displayName)"
+}
+
+# Spara till fil
+$report | Out-File -FilePath "ad_report.txt" -Encoding UTF8

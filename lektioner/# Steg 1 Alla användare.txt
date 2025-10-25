@@ -1,0 +1,22 @@
+# Steg 1: Alla användare
+$data.users
+
+# Steg 2: Filtrera (Where-Object)
+$data.users | Where-Object { $_.enabled -eq $true }
+
+# Steg 3: Välj specifika egenskaper (Select-Object)
+$data.users | 
+    Where-Object { $_.enabled -eq $true } |
+    Select-Object displayName, department, lastLogon
+
+# Steg 4: Sortera (Sort-Object)
+$data.users | 
+    Where-Object { $_.enabled -eq $true } |
+    Select-Object displayName, department, lastLogon |
+    Sort-Object lastLogon -Descending
+
+# Steg 5: Ta första 10 (Select-Object -First)
+$data.users | 
+    Where-Object { $_.enabled -eq $true } |
+    Sort-Object lastLogon -Descending |
+    Select-Object -First 10

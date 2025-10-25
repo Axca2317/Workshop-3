@@ -1,0 +1,11 @@
+# Sortera stigande (default)
+$data.users | Sort-Object displayName
+
+# Sortera fallande
+$data.users | Sort-Object lastLogon -Descending
+
+# Sortera på flera egenskaper
+$data.users | Sort-Object department, displayName
+
+# Sortera på beräknat värde
+$data.users | Sort-Object { [datetime]$_.lastLogon }

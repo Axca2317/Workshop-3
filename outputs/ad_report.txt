@@ -1,0 +1,269 @@
+﻿
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                         ACTIVE DIRECTORY AUDIT REPORT
+///////////////////////////////////////////////////////////////////////////////
+
+Generated: 2025-10-21 18:35:23
+Domain:    techcorp.local
+Exported:  2025-10-14 06:00:00
+Users:     31
+Computers: 20
+
+INACTIVE USERS (>= 30 days)
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+SAM_AccountName               DisplayName                   Dept                          Site                          DaysInactive
+________________________________________________________________________________________________________________________________________________________________________________________________________________________nnils                         Nils Nilsson                  Operations                    Lager                            67
+qquentin                      Quentin Quentinsson           Sales                         Kontor Malmö                     50
+eolsson                       Erik Olsson                   Sales                         Huvudkontor                      67
+mberg                         Maria Berg                    Finance                       Kontor Malmö                     62
+jsvensson                     Johan Svensson                Operations                    Lager                            57
+admin_backup                  Backup Admin Account          IT                            Datacenter                      112
+test_user                     Test User                     IT                            Datacenter                      128
+
+USERS PER DEPARTMENT (loop-count)
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Department                    Count
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                         ACTIVE DIRECTORY AUDIT REPORT
+///////////////////////////////////////////////////////////////////////////////
+
+Generated: 2025-10-21 18:35:23
+Domain:    techcorp.local
+Exported:  2025-10-14 06:00:00
+Users:     31
+Computers: 20
+
+INACTIVE USERS (>= 30 days)
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+SAM_AccountName               DisplayName                   Dept                          Site                          DaysInactive
+________________________________________________________________________________________________________________________________________________________________________________________________________________________nnils                         Nils Nilsson                  Operations                    Lager                            67
+qquentin                      Quentin Quentinsson           Sales                         Kontor Malmö                     50
+eolsson                       Erik Olsson                   Sales                         Huvudkontor                      67
+mberg                         Maria Berg                    Finance                       Kontor Malmö                     62
+jsvensson                     Johan Svensson                Operations                    Lager                            57
+admin_backup                  Backup Admin Account          IT                            Datacenter                      112
+test_user                     Test User                     IT                            Datacenter                      128
+ += "
+"Finance                           5
+HR                                3
+IT                               10
+Management                        3
+Operations                        5
+Sales                             5
+
+COMPUTERS BY SITE (Group-Object)
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Site                          Count
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                         ACTIVE DIRECTORY AUDIT REPORT
+///////////////////////////////////////////////////////////////////////////////
+
+Generated: 2025-10-21 18:35:23
+Domain:    techcorp.local
+Exported:  2025-10-14 06:00:00
+Users:     31
+Computers: 20
+
+INACTIVE USERS (>= 30 days)
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+SAM_AccountName               DisplayName                   Dept                          Site                          DaysInactive
+________________________________________________________________________________________________________________________________________________________________________________________________________________________nnils                         Nils Nilsson                  Operations                    Lager                            67
+qquentin                      Quentin Quentinsson           Sales                         Kontor Malmö                     50
+eolsson                       Erik Olsson                   Sales                         Huvudkontor                      67
+mberg                         Maria Berg                    Finance                       Kontor Malmö                     62
+jsvensson                     Johan Svensson                Operations                    Lager                            57
+admin_backup                  Backup Admin Account          IT                            Datacenter                      112
+test_user                     Test User                     IT                            Datacenter                      128
+
+USERS PER DEPARTMENT (loop-count)
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Department                    Count
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                         ACTIVE DIRECTORY AUDIT REPORT
+///////////////////////////////////////////////////////////////////////////////
+
+Generated: 2025-10-21 18:35:23
+Domain:    techcorp.local
+Exported:  2025-10-14 06:00:00
+Users:     31
+Computers: 20
+
+INACTIVE USERS (>= 30 days)
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+SAM_AccountName               DisplayName                   Dept                          Site                          DaysInactive
+________________________________________________________________________________________________________________________________________________________________________________________________________________________nnils                         Nils Nilsson                  Operations                    Lager                            67
+qquentin                      Quentin Quentinsson           Sales                         Kontor Malmö                     50
+eolsson                       Erik Olsson                   Sales                         Huvudkontor                      67
+mberg                         Maria Berg                    Finance                       Kontor Malmö                     62
+jsvensson                     Johan Svensson                Operations                    Lager                            57
+admin_backup                  Backup Admin Account          IT                            Datacenter                      112
+test_user                     Test User                     IT                            Datacenter                      128
+ += "
+"Finance                           5
+HR                                3
+IT                               10
+Management                        3
+Operations                        5
+Sales                             5
+ += "
+"Datacenter                        4
+Huvudkontor                       8
+Kontor Malmö                      3
+Lager                             3
+Säkerhetskopia                    2
+
+TOP 10 STALE COMPUTERS (oldest lastLogon among enabled)
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Name                 Site             OS                  Version                    LastLogon
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                         ACTIVE DIRECTORY AUDIT REPORT
+///////////////////////////////////////////////////////////////////////////////
+
+Generated: 2025-10-21 18:35:23
+Domain:    techcorp.local
+Exported:  2025-10-14 06:00:00
+Users:     31
+Computers: 20
+
+INACTIVE USERS (>= 30 days)
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+SAM_AccountName               DisplayName                   Dept                          Site                          DaysInactive
+________________________________________________________________________________________________________________________________________________________________________________________________________________________nnils                         Nils Nilsson                  Operations                    Lager                            67
+qquentin                      Quentin Quentinsson           Sales                         Kontor Malmö                     50
+eolsson                       Erik Olsson                   Sales                         Huvudkontor                      67
+mberg                         Maria Berg                    Finance                       Kontor Malmö                     62
+jsvensson                     Johan Svensson                Operations                    Lager                            57
+admin_backup                  Backup Admin Account          IT                            Datacenter                      112
+test_user                     Test User                     IT                            Datacenter                      128
+
+USERS PER DEPARTMENT (loop-count)
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Department                    Count
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                         ACTIVE DIRECTORY AUDIT REPORT
+///////////////////////////////////////////////////////////////////////////////
+
+Generated: 2025-10-21 18:35:23
+Domain:    techcorp.local
+Exported:  2025-10-14 06:00:00
+Users:     31
+Computers: 20
+
+INACTIVE USERS (>= 30 days)
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+SAM_AccountName               DisplayName                   Dept                          Site                          DaysInactive
+________________________________________________________________________________________________________________________________________________________________________________________________________________________nnils                         Nils Nilsson                  Operations                    Lager                            67
+qquentin                      Quentin Quentinsson           Sales                         Kontor Malmö                     50
+eolsson                       Erik Olsson                   Sales                         Huvudkontor                      67
+mberg                         Maria Berg                    Finance                       Kontor Malmö                     62
+jsvensson                     Johan Svensson                Operations                    Lager                            57
+admin_backup                  Backup Admin Account          IT                            Datacenter                      112
+test_user                     Test User                     IT                            Datacenter                      128
+ += "
+"Finance                           5
+HR                                3
+IT                               10
+Management                        3
+Operations                        5
+Sales                             5
+
+COMPUTERS BY SITE (Group-Object)
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Site                          Count
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                         ACTIVE DIRECTORY AUDIT REPORT
+///////////////////////////////////////////////////////////////////////////////
+
+Generated: 2025-10-21 18:35:23
+Domain:    techcorp.local
+Exported:  2025-10-14 06:00:00
+Users:     31
+Computers: 20
+
+INACTIVE USERS (>= 30 days)
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+SAM_AccountName               DisplayName                   Dept                          Site                          DaysInactive
+________________________________________________________________________________________________________________________________________________________________________________________________________________________nnils                         Nils Nilsson                  Operations                    Lager                            67
+qquentin                      Quentin Quentinsson           Sales                         Kontor Malmö                     50
+eolsson                       Erik Olsson                   Sales                         Huvudkontor                      67
+mberg                         Maria Berg                    Finance                       Kontor Malmö                     62
+jsvensson                     Johan Svensson                Operations                    Lager                            57
+admin_backup                  Backup Admin Account          IT                            Datacenter                      112
+test_user                     Test User                     IT                            Datacenter                      128
+
+USERS PER DEPARTMENT (loop-count)
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Department                    Count
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                         ACTIVE DIRECTORY AUDIT REPORT
+///////////////////////////////////////////////////////////////////////////////
+
+Generated: 2025-10-21 18:35:23
+Domain:    techcorp.local
+Exported:  2025-10-14 06:00:00
+Users:     31
+Computers: 20
+
+INACTIVE USERS (>= 30 days)
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+SAM_AccountName               DisplayName                   Dept                          Site                          DaysInactive
+________________________________________________________________________________________________________________________________________________________________________________________________________________________nnils                         Nils Nilsson                  Operations                    Lager                            67
+qquentin                      Quentin Quentinsson           Sales                         Kontor Malmö                     50
+eolsson                       Erik Olsson                   Sales                         Huvudkontor                      67
+mberg                         Maria Berg                    Finance                       Kontor Malmö                     62
+jsvensson                     Johan Svensson                Operations                    Lager                            57
+admin_backup                  Backup Admin Account          IT                            Datacenter                      112
+test_user                     Test User                     IT                            Datacenter                      128
+ += "
+"Finance                           5
+HR                                3
+IT                               10
+Management                        3
+Operations                        5
+Sales                             5
+ += "
+"Datacenter                        4
+Huvudkontor                       8
+Kontor Malmö                      3
+Lager                             3
+Säkerhetskopia                    2
+ += "
+"PC-LAG-003          Lager           Windows 11 Pro          23H2                2025-08-10 09:00
+LAPTOP-HK-002       Huvudkontor     Windows 10 Pro          22H2                2025-08-30 10:00
+PC-MAL-003          Kontor Malmö    Windows 10 Pro          22H2                2025-09-05 11:00
+TEST-VM-001         Datacenter      Windows 11 Pro          23H2                2025-09-20 14:00
+PC-HK-005           Huvudkontor     Windows 11 Pro          23H2                2025-10-12 14:30
+PC-LAG-002          Lager           Windows 10 Enterprise   22H2                2025-10-13 15:45
+PC-HK-003           Huvudkontor     Windows 10 Pro          22H2                2025-10-13 16:00
+PC-MAL-001          Kontor Malmö    Windows 11 Pro          23H2                2025-10-13 17:00
+PC-DR-001           Säkerhetskopia  Windows 11 Enterprise   23H2                2025-10-13 22:00
+SRV-DR-BACKUP       Säkerhetskopia  Windows Server 2022     21H2                2025-10-14 02:00
+
+
+TOP 10 OLDEST PASSWORDS (PasswordAgeDays)
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+DisplayName                 PasswordLastSet               NeverExpires                  Age(Days)
+________________________________________________________________________________________________________________________________________________________________________________________________________________________Backup Admin Account        2025-01-01                    True                                293
+Test User                   2025-01-15                    False                               279
+Erik Olsson                 2025-04-01                    False                               203
+Nils Nilsson                2025-04-10                    False                               194
+Maria Berg                  2025-05-10                    False                               164
+Johan Johansson             2025-05-15                    False                               159
+Quentin Quentinsson         2025-05-20                    False                               154
+Johan Svensson              2025-05-25                    False                               149
+Fredrik Fredriksson         2025-06-01                    False                               142
+Robert Robertsson           2025-06-15                    False                               128
+

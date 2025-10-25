@@ -1,0 +1,8 @@
+﻿"samAccountName";"displayName";"department";"site";"lastLogon";"DaysInactive"
+"nnils";"Nils Nilsson";"Operations";"Lager";"2025-08-15T09:00:00";"67"
+"qquentin";"Quentin Quentinsson";"Sales";"Kontor Malmö";"2025-09-01T10:00:00";"50"
+"eolsson";"Erik Olsson";"Sales";"Huvudkontor";"2025-08-15T09:00:00";"67"
+"mberg";"Maria Berg";"Finance";"Kontor Malmö";"2025-08-20T14:30:00";"62"
+"jsvensson";"Johan Svensson";"Operations";"Lager";"2025-08-25T08:15:00";"57"
+"admin_backup";"Backup Admin Account";"IT";"Datacenter";"2025-07-01T02:00:00";"112"
+"test_user";"Test User";"IT";"Datacenter";"2025-06-15T10:00:00";"128"

@@ -1,0 +1,24 @@
+# Skapa datum
+$now = Get-Date
+$specificDate = Get-Date "2025-10-14"
+$thirtyDaysAgo = (Get-Date).AddDays(-30)
+# eller använd din sparade variabel $now
+$thirtyDaysAgoVer2 = $now.AddDays(-30)
+
+# Konvertera sträng till datum
+$dateString = "2025-10-14T08:45:00"
+$dateObject = [datetime]$dateString
+
+# Beräkna tidsskillnad
+$lastLogon = [datetime]$user.lastLogon
+$daysSince = (Get-Date) - $lastLogon
+$daysInactive = $daysSince.Days
+$hoursInactive = $daysSince.TotalHours
+
+# Jämföra datum
+if ($lastLogon -lt $thirtyDaysAgo) {
+    Write-Host "Användaren är inaktiv"
+}
+
+# Formatera datum för utskrift
+$formatted = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss")

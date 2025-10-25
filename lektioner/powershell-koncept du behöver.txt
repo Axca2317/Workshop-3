@@ -1,0 +1,26 @@
+# Läsa JSON
+$data = Get-Content -Path "ad_export.json" -Raw | ConvertFrom-Json
+
+# Pipeline och filtrering
+$inactiveUsers = $data.users | Where-Object { 
+    ([datetime]$_.lastLogon) -lt (Get-Date).AddDays(-30) 
+}
+
+# Gruppering
+$usersByDept = $data.users | Group-Object -Property department
+
+# Sortering
+$sortedComputers = $data.computers | Sort-Object -Property lastLogon
+
+# Export till CSV
+$results | Export-Csv -Path "output.csv" -NoTypeInformation
+
+# Skapa rapport
+$report = @"
+ACTIVE DIRECTORY AUDIT
+======================
+Total Users: $($data.users.Count)
+"@
+
+# Spara rapport
+$report | Out-File -FilePath "ad_report.txt"

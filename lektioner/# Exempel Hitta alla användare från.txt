@@ -1,0 +1,8 @@
+# Exempel: Hitta alla användare från IT-avdelningen
+$data.users | Where-Object { $_.department -eq "IT" }
+
+# Förklaring:
+# $data.users          - startar med array av användare
+# |                    - skicka vidare till nästa kommando
+# Where-Object { }     - filtrera baserat på villkor
+# $_                   - representerar "current object" i pipeline
